@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="Contact_Info.css">
+    <meta charset="utf-8">
+    <title>Contact Page</title>
+  </head>
+  <body style="color: white" bgcolor="#333333">
+    <ul>
+      <li><a href="Practice_02.html" style="color: red">Sub Main Page</a></li>
+      <li><a href="Practice_02.html" style="color: red">Home</a></li>
+      <li><a href="Practice_01.html" style="color: red">My Work</a></li>
+      <li><a href="About.html" style="color: red">About</a></li>
+      <li><a href="Contact_Info.html" style="color: red">Contact Info</a></li>
+    </ul>
+
+    <p><b>Phone Number:</b>+1 928-(123)-(5674)</p> <br>
+    <p><b>Email ID :</b>mushoashk789@gmail.com</p>
+    <p><i>If you have any queries contact below:</i></p>
+
+    <!-- Forms-->
+    <h2>Sample Form</h2>
+    <form action="/submit" method="post">
+        <!-- Text Input -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Checkbox -->
+        <label>Hobbies:</label><br>
+        <input type="checkbox" id="sports" name="hobbies" value="sports">
+        <label for="sports">Sports</label><br>
+        <input type="checkbox" id="music" name="hobbies" value="music">
+        <label for="music">Music</label><br><br>
+
+        <!-- Dropdown List -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+        </select><br><br>
+
+        <!-- Textarea -->
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+        <!-- File Input -->
+        <label for="file">Upload File:</label>
+        <input type="file" id="file" name="file"><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+
+  </body>
+</html>

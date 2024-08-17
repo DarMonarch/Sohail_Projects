@@ -1,0 +1,71 @@
+body{
+  background-image: url(Sea_Image_1.jpeg);
+  background-size: 100%;
+}
+
+h1{
+  text-align: center;
+  color: black;
+  border: 8px solid red;
+}
+
+.intro{
+  background-color: bisque;
+  text-align: center;
+  height: 40px;
+}
+
+.images img{
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  filter: grayscale(100%);
+
+}
+
+.images{
+  text-align: center;
+  border: 8px solid blue;
+  color: white;
+
+}
+
+
+#img_1{
+  width: 10%;
+  padding-right: 20px;
+}
+
+#img_2{
+  width: 20%;
+  padding-right: 20px;
+}
+
+#img_3{
+  width: 20%;
+}
+
+.content{
+  position: relative;
+  margin-top: 70px;
+  width: 150px;
+  height: 80px;
+  padding: 10px;
+  background-color: white;
+}
+
+#shop{
+  position: relative;
+  background-color: white;
+  left: 500px;
+  color: blue;
+  text-decoration: underline;
+}
+
+.images img:hover{
+  filter: grayscale(0%);
+
+}

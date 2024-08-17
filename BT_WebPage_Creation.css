@@ -1,0 +1,42 @@
+body{
+  background-image: url(Sea_Image.jpeg);
+  background-size: 100%;
+}
+.navbar{
+  background-color: aqua;
+  color: white;
+}
+
+.nav-item:hover{
+  background-color: lightgrey;
+  color: black;
+}
+
+.jumbotron{
+  color: white;
+  text-align: center;
+}
+
+.row{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: center;
+}
+
+.card{
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card-body{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  margin-top: 5px;
+  color: white;
+}
